@@ -4,8 +4,9 @@
     font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    ;
 }
 
-#franky{
-    width: 100%;
+body{
+    background: url(/images/fondo.png);
+    background-attachment: fixed;
 }
 
 a{
@@ -20,6 +21,9 @@ nav a{
 }
 
 header{
+    position: fixed;
+    width: 100%;
+    top: 0;
     background: #18171c;
     display: flex;
     min-height: 70px;

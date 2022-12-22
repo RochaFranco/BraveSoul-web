@@ -1,11 +1,12 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    ;
+    font-family: sans-serif    ;
 }
 
-#franky{
-    width: 100%;
+body{
+    background: url(/images/fondo.png);
+    background-attachment: fixed;
 }
 
 a{
@@ -20,6 +21,9 @@ nav a{
 }
 
 header{
+    position: fixed;
+    width: 100%;
+    top: 0;
     background: #18171c;
     display: flex;
     min-height: 70px;
@@ -45,10 +49,40 @@ nav a:hover{
     background: #373440;
 }
 
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.infoSquare{
+    background-color: rgba(31, 136, 216, 0.359);
+    height: 50vh;
+    width: 70vh;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+
+}
+
+.infoSquare p{
+    width: 70%;
+
+    font-weight: bold;
+}
+
+
 @media (max-width:700px){
     header{
         flex-direction: column;
     }
+
 
     nav{
         padding: 10px 0px;
