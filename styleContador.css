@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    ;
+}
+
+body{
+    background: url(/images/fondo.png);
+    background-attachment: fixed;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedorRocha{
+    background-color: rgba(31, 136, 216, 0.771);
+    height: 30vh;
+    width: 30vh;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 80px;
+
+}
+
+.contenedorFede{
+    background-color: rgba(31, 136, 216, 0.771);
+    height: 30vh;
+    width: 30vh;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 310px;
+    margin-right: auto;
+    margin-top: -290px;
+
+}
+
+.contenedorCarlitos{
+    background-color: rgba(31, 136, 216, 0.771);
+    height: 30vh;
+    width: 30vh;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 610px;
+    margin-right: auto;
+    margin-top: -290px;
+
+}
+
+.contenedorCalde{
+    background-color: rgba(31, 136, 216, 0.771);
+    height: 30vh;
+    width: 30vh;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 910px;
+    margin-right: auto;
+    margin-top: -290px;
+
+}
+
+.contenedorRama{
+    background-color: rgba(31, 136, 216, 0.771);
+    height: 30vh;
+    width: 30vh;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 10px;
+
+}
+
+.contenedorOmarcito{
+    background-color: rgba(31, 136, 216, 0.771);
+    height: 30vh;
+    width: 30vh;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 310px;
+    margin-right: auto;
+    margin-top: -290px;
+
+}
+
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    font-size: 20px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #18171c;
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h2{
+    color: white;
+}
+
+.logo img{
+    height: 50px;
+    width: 48px;
+}
+
+nav a:hover{
+    background: #373440;
+}
+
+button{
+    margin: 5px;
+    width: 70px;
+    height: 25px;
+    cursor: pointer;
+    font-size: 1,5rem;
+    background: white;
+    border:none;
+    border-radius: 5px;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+}
