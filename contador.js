@@ -57,6 +57,7 @@ let numeroPajasOmarcito = 0;
 sumaCacasRocha.addEventListener("click", ()=>{
     numeroCacasRocha++;
     contadorCacasRocha.innerHTML = numeroCacasRocha;
+
 })
 
 sumaCacasFede.addEventListener("click", ()=>{
